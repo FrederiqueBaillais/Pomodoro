@@ -18,5 +18,35 @@
   "bugs": {
     "url": "https://github.com/FrederiqueBaillais/Pomodoro/issues"
   },
-  "homepage": "https://github.com/FrederiqueBaillais/Pomodoro#readme"
+  "homepage": "https://github.com/FrederiqueBaillais/Pomodoro#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/eslint-parser": "^7.14.3",
+    "@becode/eslint-config": "^0.12.1",
+    "eslint": "^7.26.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-unicorn": "^32.0.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
+  },
+  "lint-staged": {
+    "*.json": [
+      "npx prettier --write"
+    ],
+    "*.js": [
+      "npx eslint --fix --cache"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
+  "dependencies": {
+    "index.css": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }

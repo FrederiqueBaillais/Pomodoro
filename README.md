@@ -15,7 +15,7 @@ You will also discover some build tools, with [Parcel](https://parceljs.org/), a
 
 ## Statement
 
-Following these *beautiful [wireframes](./wireframes.jpg)*, you will code a pomodoro timer.
+Following these *beautiful [wireframes](./Assets/wireframes.jpg)*, you will code a pomodoro timer.
 
 ### Minimal requirements
 
