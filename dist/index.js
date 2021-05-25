@@ -30385,7 +30385,7 @@ _reactDom.default.render( /*#__PURE__*/_react.default.createElement(_App.default
   githubURL: "https://github.com/completejavascript/pomodoro-clock",
   defaultBreakLength: "5",
   defaultSessionLength: "25"
-}), document.getElementById('root'));
+}), document.getElementById("root"));
 
 (0, _registerServiceWorker.default)();
 },{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","index.css":"../node_modules/index.css/app.js","./components/App":"components/App.js","./registerServiceWorker":"registerServiceWorker.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
