@@ -2,11 +2,11 @@
   "name": "pomodoro",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel src/index.js",
+    "build": "parcel build src/index.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "eslint-plugin-unicorn": "^32.0.1",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
+    "parcel-bundler": "^1.12.5",
     "prettier": "^2.3.0"
   },
   "lint-staged": {
@@ -45,8 +46,11 @@
     }
   },
   "dependencies": {
+    "babelrc": "^0.0.7",
+    "gh-pages": "^3.1.0",
     "index.css": "^1.0.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
   }
 }
