@@ -31,4 +31,4 @@ function n(n,o){return n+o}console.log(n(1,2));
 },{}],"H99C":[function(require,module,exports) {
 "use strict";var e=o(require("react")),r=o(require("react-dom"));require("index.css");var t=o(require("./components/App")),u=o(require("./registerServiceWorker"));function o(e){return e&&e.__esModule?e:{default:e}}r.default.render(e.default.createElement(t.default,{githubURL:"https://github.com/completejavascript/pomodoro-clock",defaultBreakLength:"5",defaultSessionLength:"25"}),document.getElementById("root")),(0,u.default)();
 },{"react":"HdMw","react-dom":"X9zx","index.css":"G6BM","./components/App":"V6oR","./registerServiceWorker":"ymSw"}]},{},["H99C"], null)
-//# sourceMappingURL=/src.c79da7a9.js.map
+//# sourceMappingURL=/src.3a1c5a03.js.map
