@@ -1,0 +1,1 @@
+{"id":"index.html","dependencies":[{"name":"./src/index.js","dynamic":true,"resolved":"/home/freba/Pomodo/src/index.js","parent":"/home/freba/Pomodo/index.html"}],"generated":{"html":"<html>\n<body>\n  <script src=\"/1fdf421c05c1140f6d71444ea2b27638.js\"></script>\n</body>\n</html>"},"sourceMaps":null,"error":null,"hash":"7f3e821f5a54dde1ff0a6be4aff24315","cacheData":{}}
