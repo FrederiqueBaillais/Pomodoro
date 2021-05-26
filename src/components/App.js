@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import FolkMe from './Folkme';
 import Settings from './Settings';
 import Times from './Times';
 import Controller from './Controller';
@@ -153,16 +152,7 @@ export default class App extends Component {
         />
 
         <audio id="beep" preload="auto" src="https://goo.gl/65cBl1" ref={this.audioBeep}></audio>
-        <footer>Designed based on a pen by <a href="https://codepen.io/eddyerburgh/full/yOjdqo/">Edd Yerburgh</a> and coded by <a href="http://about.phamvanlam.com">Lam Pham</a>.</footer>
 
-        <FolkMe
-          targetURL={this.props.githubURL}
-          color="#4c4d4e"
-          backgroundColor="#fff"
-          position="right"
-          size="120px"
-          ariaLabel="View source on Github"
-        />
       </div>
     );
   }
